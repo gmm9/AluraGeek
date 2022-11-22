@@ -3,15 +3,20 @@ async function listaProdutos() {
     const conexaoConvertida = await conexao.json();
     return conexaoConvertida
 }
+ async function geraId() {
+    const quantidade = await listaProdutos();
+    const numero = quantidade.length + 1;
+    return numero;
+}
 
-async function criaProdutos(titulo, preco, imagem, categoria) {
+async function criaProdutos(titulo, preco, imagem, categoria, id) {
     const conexao = await fetch("http://localhost:3000/produtos", {
         method: "POST",
         headers: {
             "Content-type": "application/json"
         },
         body: JSON.stringify({
-            id: '##111111',
+            id: id,
             titulo: titulo,
             preco: preco,
             imagem: imagem,
@@ -27,5 +32,5 @@ async function criaProdutos(titulo, preco, imagem, categoria) {
 }
 
 export const conectaApi = {
-    listaProdutos,criaProdutos
+    listaProdutos,criaProdutos,geraId
 }

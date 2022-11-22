@@ -1,119 +1,144 @@
 {
   "produtos": [
     {
+      "id": 1,
       "titulo": "Controle Xbox",
       "preco": 300,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/controlexbox.jpg",
       "categoria": "console"
     },
     {
+      "id": 2,
       "titulo": "Playstation V",
       "preco": 3500,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/play5.jpg",
       "categoria": "console"
     },
     {
+      "id": 3,
       "titulo": "Camnisa Atari",
       "preco": 60,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/camisaatari.jpg",
       "categoria": "diversos"
     },
     {
+      "id": 4,
       "titulo": "Xbox Series X",
       "preco": 3000,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/xbox-series.jpg",
       "categoria": "console"
     },
     {
+      "id": 5,
       "titulo": "Fantasia Star Wars - Kylo Ren",
       "preco": 1050,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/kyloren.jpg",
       "categoria": "starwars"
     },
     {
+      "id": 6,
       "titulo": "Fantasia Star Wars - Clone",
       "preco": 1050,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/clonefantasia.jpg",
       "categoria": "starwars"
     },
     {
+      "id": 7,
       "titulo": "Caneca Clone Star Wars",
       "preco": 50,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/canetastarwars.jpg",
       "categoria": "starwars"
     },
     {
+      "id": 8,
       "titulo": "Camiseta SNES",
       "preco": 55,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/camisasnes.jpg",
       "categoria": "diversos"
     },
     {
+      "id": 9,
       "titulo": "Boneco Darth Vader",
       "preco": 105,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/bonecodarth.jpg",
       "categoria": "starwars"
     },
     {
+      "id": 10,
       "titulo": "Alarme Personlizado",
       "preco": 145,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/alarme.jpg",
       "categoria": "diversos"
     },
     {
+      "id": 11,
       "titulo": "Gameboy",
       "preco": 145,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/gameboy.jpg",
       "categoria": "console"
     },
     {
+      "id": 12,
       "titulo": "Quadro Yoda",
       "preco": 35,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/yodaquadro.jpg",
       "categoria": "starwars"
     },
     {
+      "id": 13,
       "titulo": "VR",
       "preco": 4000,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/vr.jpg",
       "categoria": "diversos"
     },
     {
+      "id": 14,
       "titulo": "Pikachu Pelucia",
       "preco": 200,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/pikachu.jpg",
       "categoria": "diversos"
     },
     {
+      "id": 15,
       "titulo": "Yoda Boneco",
       "preco": 90,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/yodaboneco.jpg",
       "categoria": "starwars"
     },
     {
+      "id": 16,
       "titulo": "Sonic Miniatura",
       "preco": 65,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/sonic.jpg",
       "categoria": "diversos"
     },
     {
+      "id": 17,
       "titulo": "Nintendo Switch",
       "preco": 3555,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/nintendoswtich.jpg",
       "categoria": "console"
     },
     {
+      "id": 18,
       "titulo": "Nintendo Console",
       "preco": 455,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/nintendo.jpg",
       "categoria": "console"
     },
     {
-      "id": "##111111",
+      "id": 19,
       "titulo": "Camisa do Mario - Black",
       "preco": "50,00",
       "imagem": "https://www.camisetas4fun.com.br/media/product/d32/camiseta-super-mario-bros-fb7.jpg",
       "categoria": "diversos"
+    },
+    {
+      "id": 20,
+      "titulo": "50",
+      "preco": "50",
+      "imagem": "50",
+      "categoria": "0000"
     }
   ]
 }

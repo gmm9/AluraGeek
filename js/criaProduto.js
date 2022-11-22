@@ -2,7 +2,6 @@ import { conectaApi } from "./main.js";
 
 const formulario = document.querySelector('[data-formulario]');
 
-
 async function incluirProduto(e) {
         e.preventDefault();
 
@@ -10,10 +9,11 @@ async function incluirProduto(e) {
         const preco = document.querySelector('[data-preco]').value;
         const imagem = document.querySelector('[data-imagem]').value;
         const categoria = document.querySelector('[data-categoria]').value;
-        const id = document.querySelector('[data-desc]').value;
+        const id = await conectaApi.geraId();
+
+        // const id = document.querySelector('[data-desc]').value;
     try {
-        console.log(typeof titulo)
-        await conectaApi.criaProdutos(titulo, preco, imagem, categoria, id);   
+        await conectaApi.criaProdutos(titulo, preco, imagem, categoria,id);   
         window.location.href= "../logado.html"
     } catch (e) {
         alert(e);
