@@ -1,0 +1,109 @@
+[
+   {"titulo": "Controle Xbox",
+    "preco": 300.0,
+    "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/controlexbox.jpg",
+    "categoria": "console"
+},
+
+{"titulo": "Playstation V",
+"preco": 3500.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/play5.jpg",
+"categoria": "console"
+},
+
+{"titulo": "Camnisa Atari",
+"preco": 60.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/camisaatari.jpg",
+"categoria": "diversos"
+},
+
+{"titulo": "Xbox Series X",
+"preco": 3000.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/xbox-series.jpg",
+"categoria": "console"
+},
+
+{"titulo": "Fantasia Star Wars - Kylo Ren",
+"preco": 1050.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/kyloren.jpg",
+"categoria": "starwars"
+},
+
+{"titulo": "Fantasia Star Wars - Clone",
+"preco": 1050.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/clonefantasia.jpg",
+"categoria": "starwars"
+},
+
+{"titulo": "Caneca Clone Star Wars",
+"preco": 50.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/canetastarwars.jpg",
+"categoria": "starwars"
+},
+
+{"titulo": "Camiseta SNES",
+"preco": 55.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/camisasnes.jpg",
+"categoria": "diversos"
+},
+
+{"titulo": "Boneco Darth Vader",
+"preco": 105.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/bonecodarth.jpg",
+"categoria": "starwars"
+},
+
+{"titulo": "Alarme Personlizado",
+"preco": 145.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/alarme.jpg",
+"categoria": "diversos"
+},
+
+{"titulo": "Gameboy",
+"preco": 145.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/gameboy.jpg",
+"categoria": "console"
+},
+
+{"titulo": "Quadro Yoda",
+"preco": 35.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/yodaquadro.jpg",
+"categoria": "starwars"
+},
+
+{"titulo": "VR",
+"preco": 4000.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/vr.jpg",
+"categoria": "diversos"
+},
+
+{"titulo": "Pikachu Pelucia",
+"preco": 200.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/pikachu.jpg",
+"categoria": "diversos"
+},
+
+{"titulo": "Yoda Boneco",
+"preco": 90.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/yodaboneco.jpg",
+"categoria": "starwars"
+},
+
+{"titulo": "Sonic Miniatura",
+"preco": 65.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/sonic.jpg",
+"categoria": "diversos"
+},
+
+{"titulo": "Nintendo Switch",
+"preco": 3555.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/nintendoswtich.jpg",
+"categoria": "console"
+},
+
+{"titulo": "Nintendo Console",
+"preco": 455.0,
+"imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/nintendo.jpg",
+"categoria": "console"
+}
+]

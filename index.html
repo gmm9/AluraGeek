@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index_css/style.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header class="header__container">
+        <div class="header__conjunto">
+
+        
+        <a href="#"><img src="./img/logo.png" alt="logomarca da AluraGeek" class="header__logo"></a>
+        <form class="header__procurar">
+            <input type="text" name="" id="" class="header__procurar-input" placeholder="O que deseja encontrar?">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+    </div>
+        <a class="botao__primario transparente forte botao__header" href="login.html">Login</a>
+
+        <div class="searchBox">
+
+            <input class="searchInput"type="text" name="" placeholder="Search">
+            <button class="searchButton" href="#">
+                <i class="material-icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="inicio">
+            <article class="inicio__container">
+                <div class="inicio__bloco">
+                    <h2 class="inicio__titulo">Dezembro Promocional</h2>
+                    <p class="inicio__texto">Produtos selecionados com 33% de desconto</p>
+                    <a class="botao__primario forte botao__inicio" href="#">Ver Consoles</a>
+                </div>
+            </article>
+        </section>
+        <section class="categorias">
+            <article class="categoria__bloco">
+                <div class="categoria__legenda">
+                    <h2 class="categoria__titulo">Star Wars</h2> 
+                    <a class="categoria__vertudo">Ver tudo <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="categoria__produtos starwars" >
+                    <!-- <div class="categoria__produtos--item">
+                        <img class="categoria__produtos--img" src="./img/unsplash_6FDXGY9J6y4.jpg" alt="imagem teste">
+                        <p class="categoria__produtos--titulo">Produto XYZ</p>
+                        <p class="categoria__produtos--valor">R$ 60,00</p>
+                        <a class="categoria__vertudo">Ver Produto</a>
+                    </div> -->
+                </div>
+                <div class="categoria__legenda">
+                    <h2 class="categoria__titulo">Consoles</h2> 
+                    <a class="categoria__vertudo">Ver tudo <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="categoria__produtos console">
+                </div>
+                <div class="categoria__legenda">
+                    <h2 class="categoria__titulo">Diversos</h2> 
+                    <a class="categoria__vertudo">Ver tudo <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="categoria__produtos diversos">
+                </div>
+            </article>
+        </section>
+        <section class="contato">
+           <img src="./img/logo2.png" alt="logomarca alurageek" class="contato__logo-desktop"> 
+        <ul class="contato__ul">
+            <li><img src="./img/logo2.png" alt="logomarca alurageek" class="contato__logo"></li>
+            <li class="contato__items">Quem somos nós</li>
+            <li class="contato__items">Politica de privacidade</li>
+            <li class="contato__items">Programa fidelidade</li>
+            <li class="contato__items">Nossas Lojas</li>
+            <li class="contato__items">Quero ser franqueado</li>
+            <li class="contato__items">Anuncie aqui</li>
+        </ul>
+        <div class=contato__cadastro>
+            <p class="contato__fale">Fale conosco</p>
+            <div class="inputBox">
+                <input type="text" required="required" />
+                <span>Nome</span>
+            </div >
+            <div class="inputBox inputBox__escreva ">
+                <input type="text" required="required" />
+                <span>Escreva sua mensagem</span>
+            </div>
+            <a class="botao__primario forte botao__contato">Enviar mensagem</a>
+        </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer__container">
+            <p>Desenvolvido por Fulana de Tal e Gabriel</p>
+            <p>2022</p>
+        </section>
+    </footer>
+<script src="./js/forEach.js" type="module"></script>
+</body>
+</html>

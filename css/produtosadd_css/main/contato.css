@@ -1,0 +1,136 @@
+.contato {
+    text-align: center;
+    padding: 15px;
+    background-color: #EAF2FD;
+}
+.contato__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    text-align: center;
+}
+.contato__logo {
+    width: 170px;
+}
+
+.contato__items {
+    font-weight: 500;
+}
+.contato__label {
+    background-color: white;
+}
+.contato__input {
+    width: 328px;
+    height: 56px;
+    padding: 10px 15px 25px 15px;
+    border: none;
+    border-radius: 4px;
+}
+.contato__input::placeholder {
+    text-align:left;
+    color: #A2A2A2;
+}
+.contato__fale {
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: left;
+    padding-bottom:10px ;
+}
+
+/* TESTANDO FORM PERSONALIZADO */
+
+.inputBox {
+    position: relative;
+    /* width: 250px; */
+    padding-bottom: 10px;
+  }
+
+  .inputBox__escreva input {
+    height: 84px;
+
+  }
+  
+  .inputBox input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid rgb(255, 255, 255, 0.7);
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-size: 1em;
+    transition: 0.5s;
+
+  }
+  
+  .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: #A2A2A2;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+  
+  .inputBox input:valid ~ span,
+  .inputBox input:focus ~ span {
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    letter-spacing: 0.2em;
+  }
+  
+  .inputBox:nth-child(2) input:valid ~ span,
+  .inputBox:nth-child(2) input:focus ~ span {
+    background: white;
+    color: rgb(50, 62, 85);
+    border-radius: 4px;
+  }
+  
+/* BOTAO */
+.botao__contato {
+    display: flex;
+    width:max-content;
+    text-align: center;
+}
+.contato__logo-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .contato {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: auto;
+  }
+  .contato__ul {
+    padding: 20px 0 20px 0;
+    text-align: left;
+    gap: 24px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .contato {
+    grid-template-columns: 20% 20% 60%;
+  }
+  .contato__logo {
+    display: none;
+  } 
+  .contato__logo-desktop {
+    display: flex;
+    justify-self: center;
+    padding-top: 30px;
+  }
+  .contato__ul {
+    padding: 15px 0 30px 0;
+  }
+  .contato__cadastro {
+    padding-right: 80px;
+  }
+
+}

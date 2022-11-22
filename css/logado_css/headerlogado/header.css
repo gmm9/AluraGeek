@@ -1,0 +1,77 @@
+.header__container {
+    position: relative;
+    padding: 15px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 30px;
+}
+.botao__header {
+    width: 133px;
+    cursor: pointer;
+}
+.header__procurar {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .header__container {
+        position: relative;
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .searchBox {
+        display: none;
+    }
+    .header__procurar {
+        display: block;
+        background-color:#F5F5F5;
+        padding-right: 15px;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        outline: none;
+        border-radius: 20px;
+        align-items: baseline;
+        cursor: pointer;
+    }
+    .header__procurar-input {
+        border: none;
+        background-color: inherit; 
+        width: 100%;
+        padding: 15px;
+        border-radius: 20px;
+        outline: none;
+
+    }
+    .header__procurar-input::placeholder {
+        color: #a2a2a2;
+        font-size: 14px;
+        opacity: 0.8;
+    }
+    .header__conjunto {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .header__container {
+        justify-content: space-around;
+        gap: 500px;
+        height: auto;
+        /* padding: 30px; */
+    }
+    .header__logo {
+        width: 176px;
+    }
+    .header__procurar {
+        width: 393px;
+    }
+    .botao__header {
+        width: 182px;
+    }
+}
