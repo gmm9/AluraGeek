@@ -1,4 +1,4 @@
-import { conectaApi } from "./main.js";
+import { conectaApi } from "./main.js"
 const categoriaProduto = document.querySelector('.categoria__produtos');
 
 
@@ -6,7 +6,7 @@ export default function exibirProdutoEditavel(titulo, preco, imagem, id) {
  return `       <div class="categoria__produtos--item">
                <img class="categoria__produtos--img" src="${imagem}" alt="imagem teste">
                <div class="categoria__box">
-               <button class="categoria__icone icone__deletar" onclick="deleteProduto()"><img src="./img/lixeira.svg" alt=""></button>
+               <button class="categoria__icone icone__deletar" onclick="pegaEvento(this)"><img src="./img/lixeira.svg" alt=""></button>
                <button class="categoria__icone icone__editar"><img src="./img/caneta.svg" alt=""></button>
                </div>
                <p class="categoria__produtos--titulo">${titulo}</p>

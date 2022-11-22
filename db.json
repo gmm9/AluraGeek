@@ -125,20 +125,6 @@
       "preco": 455,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/nintendo.jpg",
       "categoria": "console"
-    },
-    {
-      "id": 19,
-      "titulo": "Camisa do Mario - Black",
-      "preco": "50,00",
-      "imagem": "https://www.camisetas4fun.com.br/media/product/d32/camiseta-super-mario-bros-fb7.jpg",
-      "categoria": "diversos"
-    },
-    {
-      "id": 20,
-      "titulo": "50",
-      "preco": "50",
-      "imagem": "50",
-      "categoria": "0000"
     }
   ]
 }
