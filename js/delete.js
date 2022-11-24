@@ -1,6 +1,3 @@
-const buttonDelete = document.querySelectorAll('.icone__deletar');
-
-
 
 function pegaEvento() {
     addEventListener('click', e => deleteProduto(e))
