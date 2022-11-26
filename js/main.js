@@ -3,11 +3,6 @@ async function listaProdutos() {
     const conexaoConvertida = await conexao.json();
     return conexaoConvertida
 }
- async function geraId() {
-    const quantidade = await listaProdutos();
-    const numero = quantidade.length + 1;
-    return numero;
-}
 
 async function criaProdutos(titulo, preco, imagem, categoria, id) {
     const conexao = await fetch("http://localhost:3000/produtos", {
@@ -16,7 +11,6 @@ async function criaProdutos(titulo, preco, imagem, categoria, id) {
             "Content-type": "application/json"
         },
         body: JSON.stringify({
-            id: id,
             titulo: titulo,
             preco: preco,
             imagem: imagem,
@@ -31,6 +25,13 @@ async function criaProdutos(titulo, preco, imagem, categoria, id) {
     return conexaoConvertida
 }
 
+async function buscaProduto(termo) {
+    const conexao = await fetch(`http://localhost:3000/produtos?q=${termo}`)
+    const conexaoConvertida = conexao.json();
+
+    return conexaoConvertida;
+}
+
 export const conectaApi = {
-    listaProdutos,criaProdutos,geraId
+    listaProdutos,criaProdutos,buscaProduto
 }

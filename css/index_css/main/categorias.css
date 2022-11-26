@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.displayNone{
+    display: none;
+}
+
 .categoria__titulo {
     color: #464646;
     font-weight: 700;

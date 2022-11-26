@@ -1,7 +1,7 @@
 import { conectaApi } from "./main.js";
 const categoriaProduto = document.querySelectorAll('.categoria__produtos');
 
-export default function exibirProduto(titulo, preco, imagem, categoria) {
+ function exibirProduto(titulo, preco, imagem, categoria) {
  return `<div class="categoria__produtos--item">
   <img class="categoria__produtos--img" src="${imagem}" alt="imagem teste">
   <p class="categoria__produtos--titulo">${titulo}</p>
@@ -37,6 +37,9 @@ async function listaProdutos() {
  listaProdutos();
 
 
+export const mostraProdutos = {
+  exibirProduto, listaProdutos
+}
 
 
 

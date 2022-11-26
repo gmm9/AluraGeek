@@ -125,6 +125,13 @@
       "preco": 455,
       "imagem": "https://raw.githubusercontent.com/gmm9/apifake/main/nintendo.jpg",
       "categoria": "console"
+    },
+    {
+      "titulo": "Mario Rosto",
+      "preco": "50",
+      "imagem": "https://play-lh.googleusercontent.com/p7rx-TDw8mSXmnN5oreMbOrC6FTumoRsnz8rDxUHL6-7xYtLlzcyj1GS8UKyBx5eJg",
+      "categoria": "console",
+      "id": 19
     }
   ]
 }

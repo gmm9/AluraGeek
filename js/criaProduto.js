@@ -9,17 +9,19 @@ async function incluirProduto(e) {
         const preco = document.querySelector('[data-preco]').value;
         const imagem = document.querySelector('[data-imagem]').value;
         const categoria = document.querySelector('[data-categoria]').value;
-        const id = await conectaApi.geraId();
 
-        // const id = document.querySelector('[data-desc]').value;
-    try {
-        await conectaApi.criaProdutos(titulo, preco, imagem, categoria,id);   
-        window.location.href= "../logado.html"
-    } catch (e) {
-        alert(e);
-    }
+
+        try {
+            if(window.location.href.length == 35) {
+                await conectaApi.criaProdutos(titulo, preco, imagem, categoria);   
+                window.location.href= "../logado.html"
+            }
+        } catch (e) {
+            console.log('Produto Atualizado');
+        }
     };
     
+    console.log(window.location.href.length)
 
 
 formulario.addEventListener('submit', e => incluirProduto(e))

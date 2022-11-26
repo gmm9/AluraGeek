@@ -16,3 +16,4 @@ async function deleteProduto(e) {
     }).then(res => res.json());
     console.log(url)
 }
+
