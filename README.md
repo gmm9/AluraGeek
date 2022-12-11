@@ -12,6 +12,10 @@
 
 <p>AluraGeek é um projeto de e-commerce, onde junta produtos variados sobre cultura geek, O desafio dessa vez pera criar um site onde é possivel o usuario controlar sua pequena loja, onde poderia anunciar seus produtos, contar com sistema de login por usuario, incluir produtos, deletar e editar. O proejto foi construido com intuito de treinar minhas habilidades atuais me desafiando conclui meu primeiro CRUD, começando com mobile first, usei HTML, CSS, JavaScript, utilizado JSON-SERVER para simular um api com os dados em tempo real.</p>
 
+## 🌎 Projeto em tempo real (upload ou url)
+
+<a href="alura-geek-zeta.vercel.app" target="_blank">Clicando aqui</a>
+
 ## 💡 Informações do projeto
 
 ### 💻 Ambiente: 
@@ -49,3 +53,4 @@ git clone https://github.com/gmm9/AluraGeek.git
 <img src="https://imgur.com/DatHaCx.png" width="40%"> <img src="https://imgur.com/r044Ap1.png" width="40%"> 
 <img src="https://imgur.com/YxbQu9L.png" width="40%"> <img src="https://imgur.com/vfAk4wX.png" width="40%"> 
 </p>
+
